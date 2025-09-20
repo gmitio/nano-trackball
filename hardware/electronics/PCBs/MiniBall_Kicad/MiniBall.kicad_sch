@@ -1,0 +1,719 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9d6a1f8d-4b8b-4392-b4eb-4fd42f01291d")
+	(paper "USLetter")
+	(title_block
+		(rev "R1.001")
+		(company "Ploopy Corporation")
+	)
+	(lib_symbols)
+	(junction
+		(at 99.06 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a45f4f9-b3da-42af-aa33-8e35121526d4")
+	)
+	(polyline
+		(pts
+			(xy 238.76 198.12) (xy 238.76 210.82)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2863803b-b95c-4edb-8778-69c92f99a813")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294f4fb2-7285-4518-a90e-3f473061fb8b")
+	)
+	(wire
+		(pts
+			(xy 99.06 88.9) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb41fed-9232-4eb0-8c47-5c05db2f0e15")
+	)
+	(wire
+		(pts
+			(xy 99.06 88.9) (xy 99.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec9b72b-e703-4eba-91b7-d1daeee56a93")
+	)
+	(polyline
+		(pts
+			(xy 167.64 198.12) (xy 121.92 198.12)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "91db23d4-78d6-4069-96c2-8ba9be54c847")
+	)
+	(polyline
+		(pts
+			(xy 274.32 198.12) (xy 167.64 198.12)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "9e59f4cd-7c4b-482b-9128-0e797f0d7949")
+	)
+	(wire
+		(pts
+			(xy 99.06 99.06) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0afd142-e3b9-41ed-b14d-beb4dc426ccb")
+	)
+	(polyline
+		(pts
+			(xy 167.64 198.12) (xy 167.64 210.82)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "b2f0b8b9-1419-4588-8503-9ef4bb4e82bc")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 99.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9341f17-4318-4cee-8fbb-603a97f424e0")
+	)
+	(polyline
+		(pts
+			(xy 167.64 208.28) (xy 238.76 208.28)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d71a8c3c-d96f-47a1-a199-06134a3deec3")
+	)
+	(polyline
+		(pts
+			(xy 121.92 198.12) (xy 121.92 210.82)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d8273ec2-4f66-43ee-b151-3d98ea0290a4")
+	)
+	(polyline
+		(pts
+			(xy 167.64 203.2) (xy 238.76 203.2)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e8ba6235-3c5f-4a4b-ad29-1119306ed468")
+	)
+	(polyline
+		(pts
+			(xy 219.71 203.2) (xy 219.71 210.82)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f799cdd9-0bec-4e20-98c4-6d1b280c16f1")
+	)
+	(text_box "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.\n\nYou may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). \n\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING   OF MERCHANTABILITY, SATISFACTORY QUALITY   AND FITNESS FOR A PARTICULAR PURPOSE.\n\nPlease see the CERN OHL v.1.2 for applicable conditions."
+		(exclude_from_sim no)
+		(at 271.78 162.56 0)
+		(size -55.88 33.02)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3fd0f53f-0c87-4323-a43d-72bcef16b987")
+	)
+	(text "${FILENAME}"
+		(exclude_from_sim no)
+		(at 174.752 202.184 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "060222c1-f52f-4418-8352-2e103c49ff30")
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 233.68 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f5be829-1579-40e7-8bcf-6891c24c7d76")
+	)
+	(text "${REVISION}"
+		(exclude_from_sim no)
+		(at 229.616 207.264 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "17c4a7df-0ad1-4e63-b135-8130274ae7f0")
+	)
+	(text "Title:"
+		(exclude_from_sim no)
+		(at 168.91 201.93 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f91628d-e83d-4e90-babe-776bc5934de6")
+	)
+	(text "Sheet"
+		(exclude_from_sim no)
+		(at 220.98 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "224b7b9c-f05d-4270-a63e-51e1079d26ed")
+	)
+	(text "${PROJECTNAME}"
+		(exclude_from_sim no)
+		(at 174.752 207.264 0)
+		(effects
+			(font
+				(size 1.651 1.651)
+			)
+			(justify left bottom)
+		)
+		(uuid "228bf3bb-81f3-4a9f-81b6-e0bda4a4e56e")
+	)
+	(text "Date:"
+		(exclude_from_sim no)
+		(at 168.91 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cac60bf-08c6-4d45-84ac-21d4a7659948")
+	)
+	(text "Copyright Ploopy Corporation 2021"
+		(exclude_from_sim no)
+		(at 124.46 202.438 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fc1a4f3-37a8-4e4c-b567-2bb63257c61a")
+	)
+	(text "Mississauga ON L5C 0A3"
+		(exclude_from_sim no)
+		(at 241.3 207.518 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "4740e6ef-2888-42ed-ae59-db67529e8466")
+	)
+	(text "${CURRENTTIME}"
+		(exclude_from_sim no)
+		(at 194.31 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "694e0871-848d-42be-93de-a57fdec1c81d")
+	)
+	(text "${#}"
+		(exclude_from_sim no)
+		(at 226.822 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d11a491-71a3-4cf9-a84b-b698bbfb7459")
+	)
+	(text "${CURRENT_DATE}"
+		(exclude_from_sim no)
+		(at 175.26 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "71317d38-3cd6-48f9-bcde-22abdda8a611")
+	)
+	(text "of"
+		(exclude_from_sim no)
+		(at 230.632 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "9867d3bd-97a8-45ba-86e3-77d64aab9b15")
+	)
+	(text "Time:"
+		(exclude_from_sim no)
+		(at 187.96 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "a58c3457-2297-425c-9967-2693da90f280")
+	)
+	(text "Version:"
+		(exclude_from_sim no)
+		(at 220.98 207.01 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "a77c9fe7-ae21-4bf0-ab08-6b5a51a187ff")
+	)
+	(text "Licensed under the CERN OHL v. 1.2"
+		(exclude_from_sim no)
+		(at 124.46 205.74 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+			(justify left bottom)
+		)
+		(uuid "acb677b1-177c-421b-aebd-8571cf3ce077")
+	)
+	(text "Canada"
+		(exclude_from_sim no)
+		(at 241.3 210.058 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8bf5d27-7ac6-47b6-ad0d-742be9084cca")
+	)
+	(text "PCB:"
+		(exclude_from_sim no)
+		(at 168.91 207.01 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "da97832a-f431-4048-bfb5-ec8dc3380f0d")
+	)
+	(text "http://ohwr.org/cernohl"
+		(exclude_from_sim no)
+		(at 124.46 208.28 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+			(justify left bottom)
+		)
+		(uuid "e702fd9f-8e65-4ff6-a742-da7b281fbebc")
+	)
+	(text "Ploopy Corporation"
+		(exclude_from_sim no)
+		(at 241.3 202.438 0)
+		(effects
+			(font
+				(size 1.651 1.651)
+			)
+			(justify left bottom)
+		)
+		(uuid "f22d4f58-4471-49ee-8bb6-cc4dcc12d21a")
+	)
+	(text "137-1140 Burnhamthorpe Road W"
+		(exclude_from_sim no)
+		(at 241.3 204.978 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5680002-9d2b-40d7-951a-7a8f719f7652")
+	)
+	(sheet
+		(at 144.78 78.74)
+		(size 33.02 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "7e1d3b81-a3c6-4cdc-8a6d-42ed63ea2519")
+		(property "Sheetname" "MCU"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 144.78 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a6063b2d-7329-4e92-b12b-cccb372ce277")
+		)
+		(pin "D-" bidirectional
+			(at 144.78 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "37d124ab-aa60-43ef-b3a0-0f9f5b73a00c")
+		)
+		(pin "V_USB" input
+			(at 144.78 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "10cb04ab-834f-4437-96a6-78abba7838c4")
+		)
+		(pin "~{RESET}" output
+			(at 144.78 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ab8a286-26c8-4d22-a595-1221c5a8cc87")
+		)
+		(pin "ADNS_SDIO" bidirectional
+			(at 144.78 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dbde819f-9647-42c7-a09c-4d02ebac6baf")
+		)
+		(pin "ADNS_~{CS}" output
+			(at 144.78 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "efa81771-8b33-41a8-8fc1-589efda94b69")
+		)
+		(pin "ADNS_SCLK" output
+			(at 144.78 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1878d0be-5533-437d-a31f-b435fac62775")
+		)
+		(instances
+			(project "MiniBall"
+				(path "/9d6a1f8d-4b8b-4392-b4eb-4fd42f01291d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 96.52)
+		(size 43.18 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "89019ad1-bdee-47d3-99bb-c1d987d7806b")
+		(property "Sheetname" "MOS"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MouseSensor.kicad_sch"
+			(at 101.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f2d00ca4-744d-45c8-a70e-3eee9840ed73")
+		)
+		(pin "V_USB" input
+			(at 101.6 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cd1b7c8d-5f47-4ae3-b4f7-9f7805f97c8a")
+		)
+		(pin "ADNS_~{CS}" input
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e88c7733-3a2a-4198-adc9-2709788eaefc")
+		)
+		(pin "ADNS_SDIO" bidirectional
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "abb6e79d-d57b-4893-948c-b32685d68254")
+		)
+		(pin "ADNS_SCLK" input
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "594d0c76-fc40-4793-922b-09f6722e2d92")
+		)
+		(instances
+			(project "MiniBall"
+				(path "/9d6a1f8d-4b8b-4392-b4eb-4fd42f01291d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 119.38)
+		(size 43.18 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "de0f3e48-df74-40c2-be42-476fa653d682")
+		(property "Sheetname" "MCH"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mechanical.kicad_sch"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project "MiniBall"
+				(path "/9d6a1f8d-4b8b-4392-b4eb-4fd42f01291d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 78.74)
+		(size 43.18 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "ef58d7a0-c31a-4bd8-8002-5fc7a076cde5")
+		(property "Sheetname" "USB"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 101.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f2fd946-ff39-4903-a6a8-b06eb0f78bb4")
+		)
+		(pin "V_USB" output
+			(at 101.6 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fb3ad56f-3dc4-4a4e-a66a-22f2a996b49e")
+		)
+		(pin "D-" bidirectional
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83be3211-9646-4e3d-b62c-d42784598011")
+		)
+		(instances
+			(project "MiniBall"
+				(path "/9d6a1f8d-4b8b-4392-b4eb-4fd42f01291d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
